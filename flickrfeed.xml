@@ -1,103 +1,470 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <feed xmlns="http://www.w3.org/2005/Atom"
-      xmlns:dc="http://purl.org/dc/elements/1.1/"
-      xmlns:flickr="urn:flickr:user"
-      xmlns:media="http://search.yahoo.com/mrss/">
+      xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:flickr="urn:flickr:" xmlns:media="http://search.yahoo.com/mrss/">
 
-  <title>From bob.greenlees' contacts</title>
-  <link rel="self" href="http://api.flickr.com/services/feeds/photos_friends.gne?user_id=40802316@N07" />
-  <link rel="alternate" type="text/html" href="https://www.flickr.com/photos/40802316@N07/friends/"/>
-  <id>tag:flickr.com,2005:/photos/friends-0-0</id>
-  <icon>https://farm6.staticflickr.com/5606/buddyicons/40802316@N07.jpg?1413666797#40802316@N07</icon>
-  <subtitle></subtitle>
-  <updated>2014-08-11T19:07:01Z</updated>
-  <generator uri="https://www.flickr.com/">Flickr</generator>
-
-<entry>
-    <title>Elizabeth</title>
-    <link rel="alternate" type="text/html" href="https://www.flickr.com/photos/billysbirds/14885665031/"/>
-    <id>tag:flickr.com,2005:/photo/14885665031</id>
-    <published>2014-08-11T19:07:01Z</published>
-    <updated>2014-08-11T19:07:01Z</updated>
-    <flickr:date_taken>2013-04-25T11:32:49-08:00</flickr:date_taken>
-    <dc:date.Taken>2013-04-25T11:32:49-08:00</dc:date.Taken>
-    <content type="html">			&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/people/billysbirds/&quot;&gt;Billtacular&lt;/a&gt; posted a photo:&lt;/p&gt;
-	
-&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/billysbirds/14885665031/&quot; title=&quot;Elizabeth&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5555/14885665031_0cc372d991_m.jpg&quot; width=&quot;240&quot; height=&quot;159&quot; alt=&quot;Elizabeth&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Greyhound Bus Depot&lt;br /&gt;
-Blytheville, AR&lt;/p&gt;</content>
-    <author>
-      <name>Billtacular</name>
-      <uri>https://www.flickr.com/people/billysbirds/</uri>
-      <flickr:nsid>8661877@N05</flickr:nsid>
-    </author>
-    <link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-nc-nd/2.0/deed.en" />
-    <link rel="enclosure" type="image/jpeg" href="https://farm6.staticflickr.com/5555/14885665031_0cc372d991_b.jpg" />
-    <category term="spring" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="model" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="raw" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="ar" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="modeling" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="profile" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="roadtrip" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="arkansas" scheme="https://www.flickr.com/photos/tags/" />
-    <displaycategories>
-            </displaycategories>
-    </entry>
-
-<entry>
-    <title>postweb</title>
-    <link rel="alternate" type="text/html" href="https://www.flickr.com/photos/appictures/9728415432/"/>
-    <id>tag:flickr.com,2005:/photo/9728415432</id>
-    <published>2013-09-11T22:33:37Z</published>
-    <updated>2013-09-11T22:33:37Z</updated>
-    <flickr:date_taken>2013-09-11T15:33:32-08:00</flickr:date_taken>
-    <dc:date.Taken>2013-09-11T15:33:32-08:00</dc:date.Taken>
-    <content type="html">			&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/people/appictures/&quot;&gt;AP_Director&lt;/a&gt; posted a photo:&lt;/p&gt;
-	
-&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/appictures/9728415432/&quot; title=&quot;postweb&quot;&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2891/9728415432_f9dacfd2d3_m.jpg&quot; width=&quot;240&quot; height=&quot;185&quot; alt=&quot;postweb&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+	<title>Content from Paradise Ridge Sculpture Grove</title>
+	<link rel="self" href="http://api.flickr.com/services/feeds/photoset.gne?set=72157600976524175&amp;nsid=23922109@N00&amp;lang=en-us" />
+	<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/sets/72157600976524175"/>
+	<id>tag:flickr.com,2005:http://www.flickr.com/photos/23922109@N00/sets/72157600976524175</id>
+	<icon>http://farm2.static.flickr.com/1335/882568164_72eee9b41f_s.jpg</icon>
+	<subtitle>The &lt;a href=&quot;http://www.paradiseridgewinery.com/&quot;&gt;Paradise Ridge Winery&lt;/a&gt; not only has great wines, but they also have a sculpture garden. We visited on 22 July 2007.</subtitle>
+	<updated>2007-07-24T05:19:08Z</updated>
+	<generator uri="http://www.flickr.com/">Flickr</generator>
+    
+	<entry>
+		<title>IMG_0045.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882590644/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882590644/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:42:49-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882590644/&quot; title=&quot;IMG_0045.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1063/882590644_5a4a0d89f3_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0045.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 </content>
-    <author>
-      <name>AP_Director</name>
-      <uri>https://www.flickr.com/people/appictures/</uri>
-      <flickr:nsid>10113299@N02</flickr:nsid>
-    </author>
-    <link rel="enclosure" type="image/jpeg" href="https://farm3.staticflickr.com/2891/9728415432_f9dacfd2d3_b.jpg" />
-    <category term="" scheme="https://www.flickr.com/photos/tags/" />
-    <displaycategories>
-            </displaycategories>
-    </entry>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1063/882590644_5a4a0d89f3_m.jpg" />
 
-<entry>
-    <title>UC logo design</title>
-    <link rel="alternate" type="text/html" href="https://www.flickr.com/photos/45405948@N03/5405861510/"/>
-    <id>tag:flickr.com,2005:/photo/5405861510</id>
-    <published>2011-01-31T21:36:50Z</published>
-    <updated>2011-01-31T21:36:50Z</updated>
-    <flickr:date_taken>2011-01-31T13:36:50-08:00</flickr:date_taken>
-    <dc:date.Taken>2011-01-31T13:36:50-08:00</dc:date.Taken>
-    <content type="html">			&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/people/45405948@N03/&quot;&gt;Geoff Shafer&lt;/a&gt; posted a photo:&lt;/p&gt;
-	
-&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/45405948@N03/5405861510/&quot; title=&quot;UC logo design&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5172/5405861510_d1049d26f3_m.jpg&quot; width=&quot;240&quot; height=&quot;124&quot; alt=&quot;UC logo design&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0043.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882589162/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882589162/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:41:55-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882589162/&quot; title=&quot;IMG_0043.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1179/882589162_25b4d6bcbe_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;IMG_0043.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 </content>
-    <author>
-      <name>Geoff Shafer</name>
-      <uri>https://www.flickr.com/people/45405948@N03/</uri>
-      <flickr:nsid>45405948@N03</flickr:nsid>
-    </author>
-    <link rel="enclosure" type="image/jpeg" href="https://farm6.staticflickr.com/5172/5405861510_d1049d26f3_b.jpg" />
-    <category term="logo" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="design" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="graphicdesign" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="webdesign" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="logodesign" scheme="https://www.flickr.com/photos/tags/" />
-    <category term="geoffshafer" scheme="https://www.flickr.com/photos/tags/" />
-    <displaycategories>
-            </displaycategories>
-    </entry>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1179/882589162_25b4d6bcbe_m.jpg" />
 
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0042.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882587910/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882587910/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:40:36-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882587910/&quot; title=&quot;IMG_0042.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1073/882587910_39ffde28e6_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0042.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1073/882587910_39ffde28e6_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0041.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882586288/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882586288/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:40:18-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882586288/&quot; title=&quot;IMG_0041.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1334/882586288_6de3304bbb_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0041.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1334/882586288_6de3304bbb_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0040.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882583896/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882583896/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:39:49-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882583896/&quot; title=&quot;IMG_0040.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1233/882583896_90fad7b9ea_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;IMG_0040.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1233/882583896_90fad7b9ea_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0038.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882580230/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882580230/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:38:43-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882580230/&quot; title=&quot;IMG_0038.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1307/882580230_6e5514abde_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;IMG_0038.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1307/882580230_6e5514abde_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0036.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882575852/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882575852/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:37:50-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882575852/&quot; title=&quot;IMG_0036.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1202/882575852_dae9705f09_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;IMG_0036.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1202/882575852_dae9705f09_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0033.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882569786/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882569786/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:36:14-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882569786/&quot; title=&quot;IMG_0033.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1089/882569786_3e0ba2bda9_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0033.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1089/882569786_3e0ba2bda9_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0048.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881746315/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881746315/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:52:32-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881746315/&quot; title=&quot;IMG_0048.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1108/881746315_d34475352c_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0048.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1108/881746315_d34475352c_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0047.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881744217/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881744217/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:48:22-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881744217/&quot; title=&quot;IMG_0047.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1154/881744217_c6c8fbcc1a_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0047.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1154/881744217_c6c8fbcc1a_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0046.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881742921/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881742921/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:47:59-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881742921/&quot; title=&quot;IMG_0046.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1026/881742921_2e06a6f160_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0046.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1026/881742921_2e06a6f160_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0039.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881732729/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881732729/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:39:00-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881732729/&quot; title=&quot;IMG_0039.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1274/881732729_2a67d0a451_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0039.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1274/881732729_2a67d0a451_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0037.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881728881/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881728881/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:38:29-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881728881/&quot; title=&quot;IMG_0037.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1030/881728881_37518bd5d4_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0037.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1030/881728881_37518bd5d4_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0035.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881724313/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881724313/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:37:18-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881724313/&quot; title=&quot;IMG_0035.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1327/881724313_2cbdbaca48_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0035.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1327/881724313_2cbdbaca48_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0034.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881722233/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881722233/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:36:43-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881722233/&quot; title=&quot;IMG_0034.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1083/881722233_8900a53763_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0034.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1083/881722233_8900a53763_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0031.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881717917/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881717917/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:34:43-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881717917/&quot; title=&quot;IMG_0031.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1193/881717917_5141b97287_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0031.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1193/881717917_5141b97287_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0030.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881716655/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881716655/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:34:28-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881716655/&quot; title=&quot;IMG_0030.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1412/881716655_209ec58df2_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0030.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1412/881716655_209ec58df2_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0029.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/881715063/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/881715063/in/set-72157600976524175</id>
+		<published>2007-07-24T05:19:08Z</published>
+		<updated>2007-07-24T05:19:08Z</updated>
+                <dc:date.Taken>2007-07-22T13:33:58-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/881715063/&quot; title=&quot;IMG_0029.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1276/881715063_6f6cc2f2d7_m.jpg&quot; width=&quot;180&quot; height=&quot;240&quot; alt=&quot;IMG_0029.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1276/881715063_6f6cc2f2d7_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
+	<entry>
+		<title>IMG_0032.JPG</title>
+		<link rel="alternate" type="text/html" href="http://www.flickr.com/photos/dorismith/882568164/in/set-72157600976524175/"/>
+		<id>tag:flickr.com,2005:/photo/882568164/in/set-72157600976524175</id>
+		<published>2007-07-24T05:15:14Z</published>
+		<updated>2007-07-24T05:15:14Z</updated>
+                <dc:date.Taken>2007-07-22T13:35:09-08:00</dc:date.Taken>
+		<content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/dorismith/&quot;&gt;Dori Smith&lt;/a&gt; posted a photo:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/dorismith/882568164/&quot; title=&quot;IMG_0032.JPG&quot;&gt;&lt;img src=&quot;http://farm2.static.flickr.com/1335/882568164_72eee9b41f_m.jpg&quot; width=&quot;240&quot; height=&quot;180&quot; alt=&quot;IMG_0032.JPG&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+		<author>
+			<name>Dori Smith</name>
+			<uri>http://www.flickr.com/people/dorismith/</uri>
+					</author>
+        <link rel="enclosure" type="image/jpeg" href="http://farm2.static.flickr.com/1335/882568164_72eee9b41f_m.jpg" />
+
+		<category term="winery" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sonomacounty" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="sculptures" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="dorismith" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridge" scheme="http://www.flickr.com/photos/tags/" />
+		<category term="paradiseridgesculptures" scheme="http://www.flickr.com/photos/tags/" />
+                	</entry>
 
 </feed>
