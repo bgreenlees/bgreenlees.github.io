@@ -1,15 +1,20 @@
-window.onload = initAll;
-var imgDiv = "";
+var getJSON = function(url, successHandler, errorHandler) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('get', url, true);
+  xhr.responseType = 'json';
+  xhr.onload = function() {
+    var status = xhr.status;
+    if (status == 200) {
+      successHandler && successHandler(xhr.response);
+    } else {
+      errorHandler && errorHandler(status);
+    }
+  };
+  xhr.send();
+};
 
-function initAll() {
-	document.getElementById("pictureBar").innerHTML = imgDiv;
-}
-
-function movies(flickrData) {
-	for (var i=0; i<flickrData.items.length; i++) {
-		imgDiv += "<img src='";
-		imgDiv += flickrData.items[i].media.m;
-		imgDiv += "' alt='" + flickrData.items[i].title + "'>";
-	}
-}
-
+getJSON('https://mathiasbynens.be/demo/ip', function(data) {
+  alert('Your public IP address is: ' + data.ip);
+}, function(status) {
+  alert('Something went wrong.');
+});
