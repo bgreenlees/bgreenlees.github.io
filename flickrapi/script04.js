@@ -10,6 +10,6 @@ function jsonFlickrFeed(flickrData) {
 		imgDiv += "<img src='";
 		imgDiv += flickrData.items[i].media.m;
 		imgDiv += "' alt='" + flickrData.items[i].title + "'>";
-		imgDiv += flickrData.items[i].title;
+		imgDiv += <br> + flickrData.items[i].title;
 	}
 }
