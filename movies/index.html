@@ -8,7 +8,7 @@ var apikey = "t593yvbc2k3zahamk2epywzh";
 var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
 
 // construct the uri with our apikey
-var inTheatersUrl = baseUrl + '/lists/movies/in_theaters.json?page_limit=5&page=1&country=us&apikey=' + apikey;
+var inTheatersUrl = baseUrl + '/lists/movies/in_theaters.json?page_limit=10&page=1&country=us&apikey=' + apikey;
 
 $(document).ready(function() {
 
@@ -109,7 +109,7 @@ p {
 
 .info {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .poster {
