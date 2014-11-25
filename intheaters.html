@@ -1,6 +1,7 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 
     <script>
 var apikey = "t593yvbc2k3zahamk2epywzh";
@@ -23,30 +24,68 @@ $(document).ready(function() {
 function inTheatersCallback(data) {
  var movies = data.movies;
  $.each(movies, function(index, movie) {
-   $(document.body).append('<h1>' + "In Theaters Now" + '</h1>');
    $(document.body).append('<h2>' + movie.title + '</h2>');
-   $(document.body).append('<img src="' + movie.posters.original + '" />');
-   $(document.body).append('<h3>' + "Critics Score :" + movie.ratings.critics_score + '</h3>');
-   $(document.body).append('<h3>' + "Audience Score :" + movie.ratings.audience_score + '</h3>');
+   $(document.body).append('<img class="poster" src="' + movie.posters.original + '"/>');
+   $(document.body).append('<h3>' + "Critics Score: " + movie.ratings.critics_score + '</h3>');
+   $(document.body).append('<h3>' + "Audience Score: " + movie.ratings.audience_score + '</h3>');
+   $(document.body).append('<p>' + 'Rated: ' + movie.mpaa_rating + '</p>');
+   $(document.body).append('<a class="trailer" href="' + 'https://www.youtube.com/results?search_query=' + movie.title + ' official trailer 1 HD 2014' + '">' + 'Trailer' + '</a>');
  });
 }
+
 
     </script>
 
 <style type="">
 
 h1, h2, h3 {
-  font-family: monospace;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: Open Sans Condensed;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Open Sans Condensed;
+}
+
+h3 {
+  font-family: Open Sans Condensed;
+  font-weight: 700;
+  padding: 0px;
+  margin: 5px;
 }
 
 body {
-  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: auto;
+}
+
+.trailer {
+  color: green;
+  font-weight: bold;
+}
+
+.poster {
+  
 }
 
 </style>
 
   </head>
   <body>
+<h1>In Theaters Now:</h1>
+<!-- FRAME FOR TRAILER
+<iframe width="560" height="315" src="http://www.youtube.com/embed/z3biFxZIJOQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+-->
+
   </body>
 </html>

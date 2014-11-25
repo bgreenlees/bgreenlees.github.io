@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+    <script>
+var username = "Christopher-J-Su";
+var baseUrl = "http://quora-api.herokuapp.com/users/";
+
+// construct the uri with our apikey
+var quoraActivityUrl = baseUrl + username + '/activity';
+
+$(document).ready(function() {
+
+  // send off the query
+  $.ajax({
+    url: quoraActivityUrl,
+    dataType: "jsonp",
+    success: quoraActivityCallback
+  });
+});
+
+// callback for when we get back the results
+function quoraActivityCallback(data) {
+ var activity = data.activity;
+   $.each(activity, function(index, item) {
+   $(document.body).append('<h1>' + "Activity for " + username + '</h1>');
+   $(document.body).append('<h2>' + item.id + '</h2>');
+ });
+}
+
+    </script>
+
+  </head>
+  <body>
+  </body>
+</html>
