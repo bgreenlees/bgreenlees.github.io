@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+
+    <script>
+var apikey = "t593yvbc2k3zahamk2epywzh";
+var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+
+// construct the uri with our apikey
+var inTheatersUrl = baseUrl + '/lists/movies/in_theaters.json?page_limit=5&page=1&country=us&apikey=' + apikey;
+
+$(document).ready(function() {
+
+  // send off the query
+  $.ajax({
+    url: inTheatersUrl,
+    dataType: "jsonp",
+    success: inTheatersCallback
+  });
+});
+
+// callback for when we get back the results
+function inTheatersCallback(data) {
+ var movies = data.movies;
+ $.each(movies, function(index, movie) {
+   $(document.body).append('<h2>' + movie.title + '</h2>');
+   $(document.body).append('<img class="poster" src="' + movie.posters.original + '"/>');
+   $(document.body).append('<h3>' + "Critics Score: " + movie.ratings.critics_score + '</h3>');
+   $(document.body).append('<h3>' + "Audience Score: " + movie.ratings.audience_score + '</h3>');
+   $(document.body).append('<p>' + 'Rated: ' + movie.mpaa_rating + '</p>');
+   $(document.body).append('<a class="info" href="' + 'https://www.youtube.com/results?search_query=' + movie.title + ' official trailer 1 HD' + ' ' + movie.year + '">' + 'Trailer' + '</a>');
+   $(document.body).append(' | ' + '<a class="info" href="' + 'https://www.google.com/#q=' + movie.title + '">' + 'Showtimes Near You' + '</a>');
+   $(document.body).append(' | ' + '<a class="info" href="' + 'http://www.imdb.com/find?ref_=nv_sr_fn&q=' + movie.title + ' ' + movie.year + '&s=all' + '">' + 'IMDB' + '</a>');
+ });
+}
+
+
+
+    </script>
+
+<style type="">
+
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: Open Sans Condensed;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: Open Sans Condensed;
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: Open Sans Condensed;
+  font-weight: 700;
+  padding: 0px;
+  margin: 5px;
+}
+
+body {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.info {
+  font-weight: bold;
+}
+
+.poster {
+  
+}
+
+</style>
+
+  </head>
+  <body>
+<h1>In Theaters Now:</h1>
+<!-- FRAME FOR TRAILER
+<iframe width="560" height="315" src="http://www.youtube.com/embed/z3biFxZIJOQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+-->
+
+  </body>
+</html>
