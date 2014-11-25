@@ -3,7 +3,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
     <script>
-var apikey = "myapikey";
+var apikey = "t593yvbc2k3zahamk2epywzh";
 var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
 
 // construct the uri with our apikey
@@ -22,11 +22,12 @@ $(document).ready(function() {
 
 // callback for when we get back the results
 function searchCallback(data) {
- $(document.body).append('Found ' + data.total + ' results for ' + query);
+ $(document.body).append("In Theaters:");
  var movies = data.movies;
  $.each(movies, function(index, movie) {
    $(document.body).append('<h1>' + movie.title + '</h1>');
    $(document.body).append('<img src="' + movie.posters.thumbnail + '" />');
+   $(document.body).append('<h3>' + "Critics Score :" + movie.ratings.critics_score + '</h3>');
  });
 }
 
@@ -36,3 +37,26 @@ function searchCallback(data) {
   <body>
   </body>
 </html>
+
+
+
+$(document.body).append('<h1>' + "In Theaters Now as of " + movie.release_date.theater + '</h3>');
+
+
+
+http://api.rottentomatoes.com/api/public/v1.0
+
+/lists/movies/in_theaters.json?
+
+page_limit=10
+
+&
+
+page=1&
+
+country=us&
+
+apikey=t593yvbc2k3zahamk2epywzh
+
+http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=t593yvbc2k3zahamk2epywzh
+

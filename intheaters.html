@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+    <script>
+var apikey = "t593yvbc2k3zahamk2epywzh";
+var baseUrl = "http://api.rottentomatoes.com/api/public/v1.0";
+
+// construct the uri with our apikey
+var inTheatersUrl = baseUrl + '/lists/movies/in_theaters.json?page_limit=5&page=1&country=us&apikey=' + apikey;
+
+$(document).ready(function() {
+
+  // send off the query
+  $.ajax({
+    url: inTheatersUrl,
+    dataType: "jsonp",
+    success: inTheatersCallback
+  });
+});
+
+// callback for when we get back the results
+function inTheatersCallback(data) {
+ var movies = data.movies;
+ $.each(movies, function(index, movie) {
+   $(document.body).append('<h1>' + "In Theaters Now" + '</h1>');
+   $(document.body).append('<h2>' + movie.title + '</h2>');
+   $(document.body).append('<img src="' + movie.posters.original + '" />');
+   $(document.body).append('<h3>' + "Critics Score :" + movie.ratings.critics_score + '</h3>');
+   $(document.body).append('<h3>' + "Audience Score :" + movie.ratings.audience_score + '</h3>');
+ });
+}
+
+    </script>
+
+<style type="">
+
+h1, h2, h3 {
+  font-family: monospace;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+}
+
+</style>
+
+  </head>
+  <body>
+  </body>
+</html>
